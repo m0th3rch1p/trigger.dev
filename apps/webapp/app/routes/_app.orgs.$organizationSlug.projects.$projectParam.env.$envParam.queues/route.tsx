@@ -60,7 +60,7 @@ import { docsPath, EnvironmentParamSchema, v3BillingPath } from "~/utils/pathBui
 import { PauseEnvironmentService } from "~/v3/services/pauseEnvironment.server";
 import { PauseQueueService } from "~/v3/services/pauseQueue.server";
 import { useCurrentPlan } from "../_app.orgs.$organizationSlug/route";
-import { BigNumber } from "~/components/primitives/charts/Charts";
+import { BigNumber } from "~/components/primitives/charts/ChartBar";
 import { Card } from "~/components/primitives/charts/Card";
 
 const SearchParamsSchema = z.object({
